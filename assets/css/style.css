@@ -3,6 +3,9 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+header h1 {
+    color: #8FBC8F
+}
 header nav {
     margin: 10px 25px;
 }
@@ -24,4 +27,7 @@ section img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+body {
+    background-color: #FFEBCD;
 }
