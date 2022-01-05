@@ -4,7 +4,8 @@ header {
     flex-wrap: wrap;
 }
 header h1 {
-    color: #8FBC8F
+    color: #8FBC8F;
+    font-size: 55px;
 }
 header nav {
     margin: 10px 25px;
@@ -12,22 +13,51 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
 }
 header nav ul li {
     padding: 10px 25px;
+    font-size: 25px;
 }
-section img {
+header a {
+    text-decoration: none;
+    color: #8FBC8F;
+}
+img {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #F0FFFF;
+}
+h2 {
+    font-size: 55px;
 }
 #about-me {
+    margin: 50px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
-body {
-    background-color: #FFEBCD;
+#my-work {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#lets-talk {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+p, address {
+    font-size: 17px;
 }
