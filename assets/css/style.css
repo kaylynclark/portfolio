@@ -25,7 +25,7 @@ header a {
     text-decoration: none;
     color: #8FBC8F;
 }
-img {
+#selfie {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -45,11 +45,9 @@ h2 {
     align-items: center;
 }
 #my-work {
-    margin: 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex: 1 100%;
+    text-align: center;
+    justify-content: center;
 }
 #lets-talk {
     margin: 50px 0;
@@ -58,6 +56,38 @@ h2 {
     justify-content: space-around;
     align-items: center;
 }
+.hero-pic {
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: #8FBC8F;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.horiseon-pic, .doggie-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    display: inline-block;
+}
 p, address {
     font-size: 17px;
+    text-decoration: none;
+    color: #8FBC8F;
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 575px) {
+
 }
