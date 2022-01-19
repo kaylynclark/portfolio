@@ -2,13 +2,21 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #F0FFFF;
+    background-attachment: fixed;
+    border: 5px solid #8FBC8F;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin: 10px 16px;
+
 }
 header h1 {
     color: #8FBC8F;
-    font-size: 55px;
+    font-size: 40px;
 }
 header nav {
-    margin: 10px 25px;
+    margin: 10px 16px;
 }
 header nav ul {
     display: flex;
@@ -18,12 +26,18 @@ header nav ul {
     list-style: none;
 }
 header nav ul li {
-    padding: 10px 25px;
+    padding: 10px 16px;
     font-size: 25px;
 }
 header a {
     text-decoration: none;
     color: #8FBC8F;
+}
+.hero {
+    text-align: center;
+    margin: 100px;
+    border: 5px solid #8FBC8F;
+    background-color:#F0FFFF;
 }
 #selfie {
     height: 200px;
@@ -32,56 +46,74 @@ header a {
 }
 
 body {
-    background-color: #F0FFFF;
+    background-color: #2F4F4F;
 }
 h2 {
-    font-size: 55px;
+    font-size: 40px;
 }
 #about-me {
-    margin: 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex: 1 100%;
+    text-align:center;
+    justify-content: center;
+    margin: 100px;
+    border: 5px solid #8FBC8F;
+    background-color: #F0FFFF;
 }
 #my-work {
     flex: 1 100%;
     text-align: center;
     justify-content: center;
+    margin: 100px;
+    border: 5px solid #8FBC8F;
+    background-color: #F0FFFF;
 }
 #lets-talk {
-    margin: 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex: 1 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    border: 5px solid #8FBC8F;
+    background-color: #F0FFFF;
 }
 .hero-pic {
     height: 400px;
     width: 400px;
+    margin: 30px;
     border-radius: 10%;
 }
+/*
+.examples {
+    display: flex;
+}
+*/
 .container {
-    position: relative;
-    text-align: center;
-    color: #8FBC8F;
+    margin: 30px;
+    width: auto;
+    display: inline-flex;
 }
 .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
 }
-.horiseon-pic, .doggie-pic {
+ .horiseon-pic, .doggie-pic {
     height: 200px;
     width: 200px;
     border-radius: 10%;
-    display: inline-block;
+    /*display: inline-block;*/
+}
+h2 {
+    color: #8FBC8F;
 }
 p, address {
     font-size: 17px;
     text-decoration: none;
     color: #8FBC8F;
 }
+a:link{
+    text-decoration: none!important;
+    color: #8FBC8F;
+  }
 @media screen and (max-width: 980px) {
 
 }
