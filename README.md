@@ -14,7 +14,7 @@ My portfolio that introduces myself and showcases my skills.
 
 
 ## Website
-https://kaylynclark.github.io/run-buddy/
+https://kaylynclark.github.io/portfolio/
 
 ## Contribution
 Made with ❤️ by Kaylyn Clark
