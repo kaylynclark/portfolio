@@ -104,7 +104,7 @@ h2 {
     width: auto;
     display: inline-flex;
 }
- .horiseon-pic, .doggie-pic {
+ .horiseon-pic, .loople-pic {
     height: 300px;
     width: 300px;
     border-radius: 10%;
@@ -113,7 +113,7 @@ h2 {
 .horiseon-pic:hover {
     opacity: 1;
 }
-.doggie-pic:hover {
+.loople-pic:hover {
     opacity: 1;
 }
 p, address {
@@ -132,7 +132,7 @@ a:link{
     p, address {
         font-size: 30px;
     }
-    .hero-pic, .horiseon-pic .doggie-pic {
+    .hero-pic, .horiseon-pic .loople-pic {
         opacity: 1;
     }
 }
@@ -140,7 +140,7 @@ a:link{
     p, address {
         font-size: 20px;
     }
-    .hero-pic, .horiseon-pic, .doggie-pic {
+    .hero-pic, .horiseon-pic, .loople-pic {
         height: 275px;
         width: 270px;
         opacity: 1;
@@ -157,7 +157,7 @@ a:link{
         width: 250px;
         opacity: 1;
     }
-    .horiseon-pic, .doggie-pic {
+    .horiseon-pic, .loople-pic {
         height: 250px;
         width: 250px;
         opacity: 1;
